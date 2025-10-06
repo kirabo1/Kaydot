@@ -1,2 +1,1 @@
-# Kaydot
-Business website
+
