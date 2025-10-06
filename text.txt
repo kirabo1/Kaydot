@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Kaydot Mercedes Cars — Luxury. Performance. Perfection.</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg:#0f1724;
+      --accent:#c7922a;
+      --muted:#9aa4b2;
+      font-family:'Inter',sans-serif;
+      color-scheme:dark;
+    }
+    body {
+      margin:0;
+      background:linear-gradient(180deg,#071027,#0f1724);
+      color:#e6eef8;
+    }
+    header {
+      display:flex;justify-content:space-between;align-items:center;
+      padding:16px 24px;border-bottom:1px solid rgba(255,255,255,0.05);
+      background:rgba(0,0,0,0.4);backdrop-filter:blur(6px);
+    }
+    .logo{font-weight:700;font-size:20px;color:var(--accent);}
+    nav a{color:#fff;text-decoration:none;margin-left:12px;font-weight:600;}
+    nav a:hover{color:var(--accent);}
+    .hero{
+      text-align:center;padding:50px 20px;background:url('https://images.unsplash.com/photo-1605719124145-253e25e5d7b0?auto=format&fit=crop&w=1500&q=80') center/cover;
+      position:relative;
+    }
+    .hero::before{
+      content:"";position:absolute;inset:0;background:rgba(0,0,0,0.55);
+    }
+    .hero-content{
+      position:relative;z-index:2;max-width:700px;margin:auto;
+    }
+    .hero h1{font-size:32px;margin-bottom:10px;}
+    .hero p{color:#dbeafe;font-size:16px;}
+    section{padding:40px 20px;max-width:1100px;margin:auto;}
+    h2{color:var(--accent);margin-bottom:12px;}
+    .services{
+      display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:20px;
+    }
+    .service{
+      background:rgba(255,255,255,0.04);padding:16px;border-radius:10px;
+      text-align:center;
+    }
+    .service img{width:100%;border-radius:10px;margin-bottom:10px;}
+    .contact{
+      background:rgba(255,255,255,0.03);border-radius:12px;padding:20px;margin-top:20px;
+    }
+    footer{
+      text-align:center;padding:20px;color:var(--muted);
+      border-top:1px solid rgba(255,255,255,0.05);
+    }
+    .motto{
+      text-align:center;margin-top:30px;font-weight:700;
+      color:#fff;background:rgba(255,255,255,0.05);padding:10px;border-radius:8px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="logo">🚘 Kaydot Mercedes Cars</div>
+  <nav>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+    <a href="#inventory">Cars</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <div class="hero-content">
+    <h1>Luxury. Performance. Perfection.</h1>
+    <p>Welcome to Kaydot — where class, quality, and confidence meet. Whether you're buying, selling, or servicing a Mercedes-Benz, we bring unmatched excellence.</p>
+  </div>
+</section>
+
+<section id="services">
+  <h2>🚗 Our Services</h2>
+  <div class="services">
+    <div class="service">
+      <img src="https://images.unsplash.com/photo-1624103250865-1f6b5a77b0c0?auto=format&fit=crop&w=900&q=80" alt="Buy and Sell Mercedes Cars">
+      <h3>Buy & Sell Mercedes Cars</h3>
+      <p>Find your dream Benz or trade in your current ride. We deal only in premium, verified Mercedes models.</p>
+    </div>
+    <div class="service">
+      <img src="https://images.unsplash.com/photo-1606813902778-9f97e8c0e3c9?auto=format&fit=crop&w=900&q=80" alt="Mercedes Service Garage">
+      <h3>Servicing & Maintenance</h3>
+      <p>Professional care to keep your Mercedes running smooth and strong — by people who know Benz best.</p>
+    </div>
+    <div class="service">
+      <img src="https://images.unsplash.com/photo-1615886970800-74cc7efcc3b8?auto=format&fit=crop&w=900&q=80" alt="Car Sourcing Mercedes">
+      <h3>Car Sourcing</h3>
+      <p>Looking for something special? We help you source exclusive and rare Mercedes-Benz models worldwide.</p>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>📍 Contact Us</h2>
+  <div class="contact">
+    <p><strong>Phone:</strong> 074 867 5463</p>
+    <p><strong>Address:</strong> 012 omg, Kay, is, majestic Street</p>
+    <p><strong>Hours:</strong> Monday – Sunday | 10:00 AM – 5:00 PM</p>
+    <p><strong>Email:</strong> info@kaydotcars.com</p>
+  </div>
+
+  <div class="motto">
+    💬 “Be something in life and buy a Merc… not some dump car with a Ben 10 logo.”
+  </div>
+</section>
+
+<section id="inventory">
+  <h2>🔥 Featured Cars</h2>
+  <div class="services">
+    <div class="service">
+      <img src="https://images.unsplash.com/photo-1603383963744-97a3c8a7150b?auto=format&fit=crop&w=900&q=80" alt="Mercedes-Benz C-Class">
+      <h3>Mercedes-Benz C-Class</h3>
+      <p>Where style meets precision — the perfect ride for those who move smart and look sharp.</p>
+    </div>
+    <div class="service">
+      <img src="https://images.unsplash.com/photo-1601924582970-b2b9a330b2af?auto=format&fit=crop&w=900&q=80" alt="Mercedes GLE">
+      <h3>Mercedes-Benz GLE</h3>
+      <p>Luxury SUV with power, comfort, and presence. Built for those who command attention.</p>
+    </div>
+    <div class="service">
+      <img src="https://images.unsplash.com/photo-1614014076310-7d2a207ca7f4?auto=format&fit=crop&w=900&q=80" alt="Mercedes AMG">
+      <h3>Mercedes-AMG GT</h3>
+      <p>Pure adrenaline and speed. Drive like a legend — powered by AMG performance.</p>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p>© <span id="year"></span> Kaydot Mercedes Cars — Displayed by the greatest man to ever step foot on this earth, Kirabo William.</p>
+</footer>
+
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>
